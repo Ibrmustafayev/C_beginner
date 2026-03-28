@@ -21,42 +21,11 @@ This repository documents my progress learning C programming. Each project targe
 
 ## 🚀 Projects
 
-### 📖 Library Manager
-`Library.c`
+### 🎓 [Mini Student Database](MiniStudentDB.c)
+A console-based student grade tracker. Add students, sort by average, and find the strongest and weakest performer.
 
-> A full console-based library system — the most complete project so far.
-
-| Detail | Info |
-|---|---|
-| **Concepts** | Structs, Functions, Strings, Sorting |
-| **Difficulty** | ⭐⭐⭐ |
-| **Status** | ✅ Complete |
-
-**What it does:**
-- Add books with title, author, year, and rating
-- Search books by title
-- Display all books
-- Sort by rating or year
-- Find the top-rated book
-
-```bash
-gcc Library.c -o library && ./library
-```
-
----
-
-## 📈 Learning Progress
-
-| # | Topic | Status |
-|---|---|---|
-| 1 | Variables & Data Types | ✅ Done |
-| 2 | Control Flow | ✅ Done |
-| 3 | Functions | ✅ Done |
-| 4 | Arrays | ✅ Done |
-| 5 | Strings | ✅ Done |
-| 6 | Structs | ✅ Done |
-| 7 | Pointers | 🔄 In Progress |
-| 8 | File I/O | ⏳ Upcoming |
+### 📖 [Library Manager](Library.c)
+A console-based library system. Add books, search by title, sort by rating or year, and find the top-rated book.
 
 ---
 
@@ -81,7 +50,8 @@ output.exe
 
 ```
 C_beginner/
-├── Library.c       # Library management system
+├── MiniStudentDB.c  # Student grade management system
+├── Library.c        # Library management system
 └── README.md
 ```
 
