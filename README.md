@@ -27,6 +27,9 @@ A console-based student grade tracker. Add students, sort by average, and find t
 ### 📖 [Library Manager](Library.c)
 A console-based library system. Add books, search by title, sort by rating or year, and find the top-rated book.
 
+### 🃏 [Card Dealer](CardDealer.c)
+A console-based card dealer. Builds a full 52-card deck, shuffles it, deals a hand, and calculates its total value.
+
 ---
 
 ## 🔧 How to Run Any Project
@@ -52,6 +55,7 @@ output.exe
 C_beginner/
 ├── MiniStudentDB.c  # Student grade management system
 ├── Library.c        # Library management system
+├── CardDealer.c     # Basic card dealer system
 └── README.md
 ```
 
